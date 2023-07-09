@@ -1,0 +1,11 @@
+// tsconfig.json
+// This is just a basic setup, feel free to tweak as needed
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext", "es2016", "esnext.asynciterable"],
+    "esModuleInterop": true
+  }
+}
